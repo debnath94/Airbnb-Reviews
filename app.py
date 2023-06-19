@@ -18,7 +18,7 @@ from nltk.tokenize import word_tokenize
 # Load the trained model
 model = pickle.load(open('AirBNBreview.pickle', 'rb'))
 
-vectorizer = pickle.load(open('vectorizer_court.pickle', 'rb'))
+vectorizer = pickle.load(open('vectorizer.pickle', 'rb'))
 
 
 # Define the Streamlit app
